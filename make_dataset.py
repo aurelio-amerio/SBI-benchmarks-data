@@ -17,4 +17,5 @@ upload_metadata("metadata.json", repo_name)
 # upload datasets
 
 for task_name in base_tasks:
+    print(f"Uploading dataset for task: {task_name}")
     upload_dataset(repo_name, task_name)   
