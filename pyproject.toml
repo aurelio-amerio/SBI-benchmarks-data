@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sbi-benchmarks"
+version = "0.0.1"
+description = "A package for SBI benchmarks dataset creation and utilities."
+authors = [
+    { name = "Aurelio Amerio", email = "aure.amerio@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "huggingface_hub",
+    "torch",
+    "sbibm @ git+https://github.com/sbi-benchmark/sbibm.git",
+    "datasets",
+    "numpy",
+    "tqdm",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+

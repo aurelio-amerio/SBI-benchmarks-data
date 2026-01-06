@@ -1,0 +1,4 @@
+To install, use
+```
+pip install . 
+```

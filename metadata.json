@@ -1,0 +1,32 @@
+{
+    "bernoulli_glm": {
+        "dim_cond": 10,
+        "dim_obs": 10,
+        "metadata": null
+    },
+    "gaussian_linear_uniform": {
+        "dim_cond": 10,
+        "dim_obs": 10,
+        "metadata": null
+    },
+    "gaussian_linear": {
+        "dim_cond": 10,
+        "dim_obs": 10,
+        "metadata": null
+    },
+    "gaussian_mixture": {
+        "dim_cond": 2,
+        "dim_obs": 2,
+        "metadata": null
+    },
+    "slcp": {
+        "dim_cond": 8,
+        "dim_obs": 5,
+        "metadata": null
+    },
+    "two_moons": {
+        "dim_cond": 2,
+        "dim_obs": 2,
+        "metadata": null
+    }
+}
