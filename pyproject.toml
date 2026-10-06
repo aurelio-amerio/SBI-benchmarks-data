@@ -18,6 +18,7 @@ dependencies = [
     "datasets",
     "numpy",
     "tqdm",
+    "jax"
 ]
 
 [tool.hatch.metadata]

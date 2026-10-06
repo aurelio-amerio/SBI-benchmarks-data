@@ -28,5 +28,13 @@
         "dim_cond": 2,
         "dim_obs": 2,
         "metadata": null
+    },
+    "lensing": {
+        "dim_cond": [
+            32,
+            32
+        ],
+        "dim_obs": 2,
+        "metadata": null
     }
 }
